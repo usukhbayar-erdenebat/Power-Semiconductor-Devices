@@ -67,5 +67,6 @@ _5.  Calculate turn-off loss (energy)_
 
 _**Poisson’s Equation:**_
 
-`dE/dx = (q/ε) · (p − n + N_D⁺ − N_A⁻)`
+![Poisson Equation](https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfrac%7BdE%7D%7Bdx%7D%20%3D%20%5Cfrac%7Bq%7D%7B%5Cvarepsilon%7D%28p-n%2BN_D%5E%2B-N_A%5E-%29)
+
 
