@@ -23,17 +23,17 @@ Given parameters:
 
 _1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_
 
-![](figure1-1.png)
+![](/figures/figure1-1.png)
 *Figure 1*
 
 _2.  Calculate on resistance of the MOSFET for area of 1 cm2_
 _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
-![](/figures)
+![](/figures/figure1-2.png)
 *Figure 2*
 
 _4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
 
-![figure 3](\figures)
+![figure 3](/figures/figure1-3.png)
 *Figure 3*
 
 _5.  Calculate turn-off loss (energy)_
