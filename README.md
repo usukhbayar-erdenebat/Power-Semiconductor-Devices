@@ -1,5 +1,5 @@
 # Power-Semiconductor-Devices
-Power Semiconductor Devices final report by Usukhbayar Erdenebat
+Power Semiconductor Devices final report questions
 
 Given parameters:
 
