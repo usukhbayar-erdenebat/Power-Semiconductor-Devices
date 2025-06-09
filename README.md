@@ -21,43 +21,42 @@ Given parameters:
 
 **Question 1**
 
-_ _1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_ _
+_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_
 
 ![](figure1-1.png)
 *Figure 1*
 
-_ _2.  Calculate on resistance of the MOSFET for area of 1 cm2_ _
-_ _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_ _
-
+_2.  Calculate on resistance of the MOSFET for area of 1 cm2_
+_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
 ![](figure1-2.png)
 *Figure 2*
 
-_ _4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_ _
+_4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
 
 ![figure 3](figure1-3.png)
 *Figure 3*
 
-_ _5.  Calculate turn-off loss (energy)_ _
+_5.  Calculate turn-off loss (energy)_
 
 
 
 
 **Question 2**
 
-_ _1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._ _
+_1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._
 
 ![](figure2-1.png)
 *Figure 1*
 
-_ _2.  Calculate on resistance of the MOSFET for area of 1 cm2_ _
-_ _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_ _
+_2.  Calculate on resistance of the MOSFET for area of 1 cm2_
+_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
 
 ![](figure2-2.png)
 *Figure 2*
 
-_ _4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_ _
+_4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
 
 ![](figure2-3.png)
 *Figure 3*
 
-_ _5.  Calculate turn-off loss (energy)_ _
+_5.  Calculate turn-off loss (energy)_
