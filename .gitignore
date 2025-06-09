@@ -1,3 +1,2 @@
 # .gitignore
-Power_Semiconuctor_basic_2020_April_V5.pdf
-Semiconductor_Theory_basics_2020_April_New_V9.pdf
+lectures/*.pdf
