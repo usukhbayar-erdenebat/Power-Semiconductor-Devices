@@ -62,13 +62,3 @@ _4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 
 
 _5.  Calculate turn-off loss (energy)_
 
-
-_**Basic Equations for Semicondictor Physics**_
-
-<p><strong>General Form</strong><br> $$\frac{d}{dx}(\varepsilon E) = q(N_D - N_A + p - n)$$</p> - 
-
-**Explanation**: Relates electric field gradient to net charge density in semiconductors. Critical for voltage blocking analysis.
-
-<p><strong>Boltzmann Approximation</strong><br> $$n = n_i e^{(E_F - E_i)/kT}$$</p> - 
-
-**Explanation**: Electron density depends on Fermi level position. Fundamental for carrier statistics.
