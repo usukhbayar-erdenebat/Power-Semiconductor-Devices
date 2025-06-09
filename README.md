@@ -21,43 +21,43 @@ Given parameters:
 
 **Question 1**
 
-_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V
+_ _1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_ _
 
 ![](figure1-1.png)
 *Figure 1*
 
-_2.  Calculate on resistance of the MOSFET for area of 1 cm2
-_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)
+_ _2.  Calculate on resistance of the MOSFET for area of 1 cm2_ _
+_ _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_ _
 
 ![](figure1-2.png)
 *Figure 2*
 
-_4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)
+_ _4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_ _
 
 ![figure 3](figure1-3.png)
 *Figure 3*
 
-_5.  Calculate turn-off loss (energy)
+_ _5.  Calculate turn-off loss (energy)_ _
 
 
 
 
 **Question 2**
 
-_1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V.
+_ _1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._ _
 
 ![](figure2-1.png)
 *Figure 1*
 
-_2.  Calculate on resistance of the MOSFET for area of 1 cm2
-_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)
+_ _2.  Calculate on resistance of the MOSFET for area of 1 cm2_ _
+_ _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_ _
 
 ![](figure2-2.png)
 *Figure 2*
 
-_4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)
+_ _4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_ _
 
 ![](figure2-3.png)
 *Figure 3*
 
-_5.  Calculate turn-off loss (energy)
+_ _5.  Calculate turn-off loss (energy)_ _
