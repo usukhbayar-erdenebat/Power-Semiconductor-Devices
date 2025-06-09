@@ -65,6 +65,10 @@ _5.  Calculate turn-off loss (energy)_
 
 _**Basic Equations for Semicondictor Physics**_
 
-<p><strong>General Poisson's Equation</strong><br> $$\frac{dE}{dx} = \frac{q}{\varepsilon}(p - n + N_D^+ - N_A^-)$$</p> - 
-**Explanation**: Describes the relationship between electric field gradient (\(dE/dx\)), charge density, and material permittivity (\(\varepsilon\)). - \(q\): Elementary charge. - \(p, n\): Hole and electron concentrations. - \(N_D^+, N_A^-\): Ionized donor/acceptor impurities. - 
-**Key Insight**: Governs voltage blocking in drift layers (e.g., in MOSFETs/IGBTs).
+<p><strong>General Form</strong><br> $$\frac{d}{dx}(\varepsilon E) = q(N_D - N_A + p - n)$$</p> - 
+
+**Explanation**: Relates electric field gradient to net charge density in semiconductors. Critical for voltage blocking analysis.
+
+<p><strong>Boltzmann Approximation</strong><br> $$n = n_i e^{(E_F - E_i)/kT}$$</p> - 
+
+**Explanation**: Electron density depends on Fermi level position. Fundamental for carrier statistics.
