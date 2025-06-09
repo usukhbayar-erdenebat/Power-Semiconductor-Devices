@@ -19,43 +19,45 @@ Given parameters:
     I_o = 10 [A]
     V_dc = 300 [V]
 
-Question 1
+**Question 1**
 
-1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V
+_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V
 
 ![](figure1-1.png)
 *Figure 1*
 
-2.  Calculate on resistance of the MOSFET for area of 1 cm2
-3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)
+_2.  Calculate on resistance of the MOSFET for area of 1 cm2
+_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)
 
 ![](figure1-2.png)
 *Figure 2*
 
-4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)
+_4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)
 
 ![figure 3](figure1-3.png)
 *Figure 3*
 
-5.  Calculate turn-off loss (energy)
+_5.  Calculate turn-off loss (energy)
 
-    
-Question 2
 
-1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V.
+
+
+**Question 2**
+
+_1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V.
 
 ![](figure2-1.png)
-*figure 1*
+*Figure 1*
 
-2.  Calculate on resistance of the MOSFET for area of 1 cm2
-3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)
+_2.  Calculate on resistance of the MOSFET for area of 1 cm2
+_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)
 
 ![](figure2-2.png)
-*figure 2*
+*Figure 2*
 
-4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)
+_4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)
 
 ![](figure2-3.png)
-*figure 3*
+*Figure 3*
 
-5.  Calculate turn-off loss (energy)
+_5.  Calculate turn-off loss (energy)
