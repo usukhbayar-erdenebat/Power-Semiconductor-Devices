@@ -65,5 +65,7 @@ _5.  Calculate turn-off loss (energy)_
 
 **Basic Equations for Semicondictor Physics**
 
-_**Poisson's Equation**_
-\frac{dE}{dx} = \frac{q}{\varepsilon}(p - n + N_D^+ - N_A^-)
+_**Poisson’s Equation:**_
+
+`dE/dx = (q/ε) · (p − n + N_D⁺ − N_A⁻)`
+
