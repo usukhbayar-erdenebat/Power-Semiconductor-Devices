@@ -17,7 +17,7 @@ Given parameters
 
 Question 1
 
-![figure 1](figure1-1.png)
+![figure 1](figure1-2.png)
 
 1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V
 2.  Calculate on resistance of the MOSFET for area of 1 cm2
