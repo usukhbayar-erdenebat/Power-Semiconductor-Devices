@@ -23,7 +23,8 @@ Question 1
 
 1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V
 
-![figure 1](figure1-1.png)
+![](figure1-1.png)
+*figure 1*
 
 2.  Calculate on resistance of the MOSFET for area of 1 cm2
 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)
