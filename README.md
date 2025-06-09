@@ -61,3 +61,9 @@ _4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 
 *Figure 3*
 
 _5.  Calculate turn-off loss (energy)_
+
+
+**Basic Equations for Semicondictor Physics**
+
+_**Poisson's Equation**_
+\frac{dE}{dx} = \frac{q}{\varepsilon}(p - n + N_D^+ - N_A^-)
