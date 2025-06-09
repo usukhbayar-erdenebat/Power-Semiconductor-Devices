@@ -8,6 +8,8 @@ mu_n = 1500;       % Electron mobility [cm^2/V-s]
 mu_p = 500;        % Hole mobility [cm^2/V-s]
 VB = 700;          % Breakdown voltage [V]
 E_crit = 2e5;      % Critical electric field [V/cm] (assumed typical value)
+V_dc = 300;        % DC bus voltage [V]
+I0 = 10;           % Initial current [A]
 
 %% 1. Design doping concentration of N drift region (for VB = 700V)
 % Doping concentration from breakdown voltage
@@ -39,10 +41,9 @@ grid on;
 
 
 %% 4. Calculate Vds(t) waveform during turn-off
-Voff = 300;        % DC bus voltage [V]
+V_dc = 300;        % DC bus voltage [V]
 I0 = 10;           % Initial current [A]
 tf = 100e-9;       % Current fall time [s]
-L = 100e-6;        % Load inductance [H]
 
 % Define Coss function (using analytical expression)
 Coss_func = @(v) 2 * eps_si * A_junc ./ sqrt(2 * q * ND * (Vbi + v));
