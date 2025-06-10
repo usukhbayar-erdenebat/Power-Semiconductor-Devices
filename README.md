@@ -175,7 +175,7 @@ $V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
 
 ![Figure Coss VS Vds](/figures/planar-toff-Vds.jpg)
 *Figure: Turn-off waveform of Vds*
-<details>
+</details>
 
 
 _5.  Calculate turn-off loss (energy)_
