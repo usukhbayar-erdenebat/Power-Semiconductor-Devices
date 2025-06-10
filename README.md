@@ -200,6 +200,7 @@ $V_{\text{dep}} = \frac{1}{2} \cdot W \cdot E_{\text{peak}}$
 
 Solving for the pillar width 
 $W$:
+
 $W = \frac{2 \cdot V_{\text{dep}}}{E_{\text{peak}}}$
 
 where 
@@ -219,7 +220,9 @@ Equating the two:
 $\frac{q N_D}{\epsilon_{\text{si}}} = \frac{2 \cdot E_{\text{peak}}}{W}$
 
 Solving for the doping concentration 
-$N_D$:$N_D = \frac{2 \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}$
+$N_D$:
+
+$N_D = \frac{2 \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}$
 
 where 
 $q = 1.6 \times 10^{-19} , \text{C}$, $\epsilon_{\text{si}} = 1.0 \times 10^{-12} , \text{F/cm}$
