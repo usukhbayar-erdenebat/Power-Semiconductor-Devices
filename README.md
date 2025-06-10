@@ -48,13 +48,14 @@ Given parameters:
 
 ### Equation
 
-![Equation](https://latex.codecogs.com/png.image?\dpi{110}&space;N_D=\frac{E_{crit}^2\cdot\varepsilon_{si}}{2\cdot q\cdot V_B})  
+ND = (E_crit² × ε_si) / (2 × q × VB)   [cm⁻³]
 
 ### Answer
 
 Drift layer doping ND = 1.78 × 10¹⁴ [cm⁻³]
 
 </details>
+
 
 
 
