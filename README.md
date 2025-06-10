@@ -44,7 +44,7 @@ Given parameters:
 
 
 <details>
-<summary>Answer is HERE</summary>
+<summary>:triangular_flag_on_post: Answer is HERE</summary>
 
 ### Equation
 $N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}$
@@ -57,7 +57,7 @@ $N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
 _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
 
 <details>
-<summary>Answer is HERE</summary>
+<summary>:triangular_flag_on_post: Answer is HERE</summary>
 
 ### Equations
 $R_{\text{drift}} = \frac{4 V_B^2}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}^3} \ [\Omega]$
