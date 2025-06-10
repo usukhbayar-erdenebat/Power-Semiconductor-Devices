@@ -263,7 +263,7 @@ $R_{\text{drift}} = \frac{2 V_B W}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}
 
 ### Answer
 
-$R_{\text{drift}} = 164.991 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$ :large_blue_circle:
+$R_{\text{drift}} = 16.499 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$ :large_blue_circle:
 
 </details>
 
