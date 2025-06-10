@@ -19,7 +19,7 @@ Given parameters:
     I_o = 10 [A]
     V_dc = 300 [V]
 
-**Question 1**
+# **❗ Question 1 ❗**
 
 
 > [!NOTE]
