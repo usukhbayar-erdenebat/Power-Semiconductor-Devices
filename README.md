@@ -47,24 +47,15 @@ Given parameters:
 <summary>Answer of Question 1</summary>
 
 ### Equation
-
 $$
 N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}
 $$
 
 ### Answer
-
 $$
 N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}
 $$
-
 </details>
-
-
-
-
-
-
 
 
 _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
