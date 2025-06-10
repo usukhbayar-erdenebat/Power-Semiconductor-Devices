@@ -134,6 +134,7 @@ $C_{oss} = C_{DS}$
 *Figure Coss VS Vds*
 
 
+###Coss values at specific Vds:
 
 |Vds|Coss|
 |:---|:---|
