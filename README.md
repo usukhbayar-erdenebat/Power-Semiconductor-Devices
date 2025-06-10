@@ -44,7 +44,7 @@ Given parameters:
 
 
 <details>
-<summary>Answer of Question 1</summary>
+<summary>Answer is HERE</summary>
 
 ### Equation
 $$
@@ -61,7 +61,7 @@ $$
 _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
 
 <details>
-<summary>Answer of Drift Region Resistance and Length</summary>
+<summary>Answer is HERE</summary>
 
 ### Equations
 
