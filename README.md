@@ -1,6 +1,22 @@
 # Power-Semiconductor-Devices
 Power Semiconductor Devices final report questions
 
+
+> [!NOTE]
+> Some assumption taken within this report
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
 Given parameters:
 
     q = 1.6e-19 [C]
@@ -20,22 +36,6 @@ Given parameters:
     V_dc = 300 [V]
 
 # **❗ Question 1 ❗**
-
-
-> [!NOTE]
-> Some assumption taken within this report
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 <code style="color : red">_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_</code>
 
@@ -183,7 +183,7 @@ _5.  Calculate turn-off loss (energy)_
 
 
 
-**Question 2**
+# **❗ Question 2 ❗**
 
 _1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._
 
