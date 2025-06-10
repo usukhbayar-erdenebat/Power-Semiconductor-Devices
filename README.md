@@ -47,10 +47,14 @@ Given parameters:
 <summary>Answer is HERE</summary>
 
 ### Equation
-$N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}$
+$
+N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}
+$
 
 ### Answer
-$N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
+$
+N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}
+$
 </details>
 
 
@@ -61,19 +65,29 @@ _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
 
 ### Equations
 
-$R_{\text{drift}} = \frac{4 V_B^2}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}^3} \ [\Omega]$
+$
+R_{\text{drift}} = \frac{4 V_B^2}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}^3} \ [\Omega]
+$
 
 or
 
-$L_{\text{drift}} = \frac{2 V_B}{E_{\text{crit}}} \ [\mathrm{cm}]$
+$
+L_{\text{drift}} = \frac{2 V_B}{E_{\text{crit}}} \ [\mathrm{cm}]
+$
 
-$R_{\text{on, drift}} = \frac{L_{\text{drift}}}{q \mu_n N_D A} \ [\Omega]$
+$
+R_{\text{on, drift}} = \frac{L_{\text{drift}}}{q \mu_n N_D A} \ [\Omega]
+$
 
 ### Answer
 
-$R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+$
+R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2
+$
 
-$R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+$
+R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2
+$
 
 result is SAME.
 
