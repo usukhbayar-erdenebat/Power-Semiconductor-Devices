@@ -27,26 +27,26 @@ Rdrift = (4* VB^2)/(mu_n * eps_si * E_crit^3); %[Ohm]
 Ldrift = 2 * VB / E_crit; % Drift region length [cm]
 Ron_drift = Ldrift / (q * mu_n * ND * A); % [Ohm]
 
-%% 3. Calculate CGD and CDS from physical parameters and plot Coss = CGD + CDS
+% Calculate CGD and CDS from physical parameters and plot Coss = CGD + CDS
 NA = ND; % assuming symmetric doping for this model
 Vbi = kT * log((ND*NA) / ni^2); % Built-in voltage [V]
-%assume that Nd and Na are same.
+
 % Vds sweep
 Vds_vals = linspace(1, V_dc, 1000); % Avoid V=0
 
 % Compute depletion width and capacitance
 W_vals = sqrt((2 * eps_si * (Vbi + Vds_vals)) / (q * ND));
-
 Cds_vals = eps_si * A ./ W_vals;
 Coss_vals = Cds_vals;
 
 % Plot
 figure;
-plot(Vds_vals, Coss_vals * 1e9);  % Convert to nF
+plot(Vds_vals, Coss_vals * 1e9, 'LineWidth', 2);  % Convert to nF, thicker line
 title('C_{oss} vs V_{DS}');
 xlabel('V_{DS} [V]');
 ylabel('C_{oss} [nF]');
 grid on;
+
 
 %% 4. Calculate Vds(t) waveform during turn-off
 % Time domain setup
