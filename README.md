@@ -184,17 +184,17 @@ _1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V.
 <details>
 <summary>:triangular_flag_on_post: Answer is HERE</summary>
 
-###Equation
+### Equation
 Peak Electric Field:
 $E_{\text{peak}} = \frac{E_{\text{crit}}}{\sqrt{2}}$
 
 where 
 $E_{\text{crit}} = 2 \times 10^5 , \text{V/cm}$
 
-###Answer
+### Answer
 $E_{\text{peak}} = 1.4142 \times 10^5 , \text{V/cm}$
 
-###Equation
+### Equation
 Depletion Voltage (Area of the Triangle):
 $V_{\text{dep}} = \frac{1}{2} \cdot W \cdot E_{\text{peak}}$
 
@@ -206,10 +206,10 @@ $W = \frac{2 \cdot V_{\text{dep}}}{E_{\text{peak}}}$
 where 
 $V_{\text{dep}} = 50 , \text{V}$
 
-###Answer
+### Answer
 Pillar Width ($W$): $7.07 , \mu\text{m}$
 
-###Equation
+### Equation
 Slope of the Electric Field:
 $\text{Slope} = \frac{q N_D}{\epsilon_{\text{si}}}$
 
@@ -227,19 +227,21 @@ $N_D = \frac{2 \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}$
 where 
 $q = 1.6 \times 10^{-19} , \text{C}$, $\epsilon_{\text{si}} = 1.0 \times 10^{-12} , \text{F/cm}$
 
-###Answer
+### Answer
 Doping Concentration ($N_D$): $2.5 \times 10^{15} , \text{cm}^{-3}$
 
-###Equation Breakdown Voltage:
+### Equation Breakdown Voltage:
 $V_B \approx E_{\text{crit}} \cdot L$
 
 Solving for 
-$L$:$L = \frac{V_B}{E_{\text{crit}}}$
+$L$:
+
+$L = \frac{V_B}{E_{\text{crit}}}$
 
 where 
 $V_B = 700 , \text{V}$
 
-###Answer
+### Answer
 Pillar Length ($L$): $35.00 , \mu\text{m}$
 </details>
 
