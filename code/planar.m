@@ -27,7 +27,7 @@ Rdrift = (4* VB^2)/(mu_n * eps_si * E_crit^3); %[Ohm]
 Ldrift = 2 * VB / E_crit; % Drift region length [cm]
 Ron_drift = Ldrift / (q * mu_n * ND * A); % [Ohm]
 
-% Calculate CGD and CDS from physical parameters and plot Coss = CGD + CDS
+%% 3 Calculate CGD and CDS from physical parameters and plot Coss = CGD + CDS
 NA = ND; % assuming symmetric doping for this model
 Vbi = kT * log((ND*NA) / ni^2); % Built-in voltage [V]
 
@@ -46,6 +46,21 @@ title('C_{oss} vs V_{DS}');
 xlabel('V_{DS} [V]');
 ylabel('C_{oss} [nF]');
 grid on;
+
+% Assuming all your previous variables are defined, including Vds_vals, Coss_vals
+
+% Voltages at which you want to print Coss
+voltages_to_print = [100, 200, 300];
+
+fprintf('Coss values at specific Vds:\n');
+for Vprint = voltages_to_print
+    % Find index closest to Vprint
+    [~, idx] = min(abs(Vds_vals - Vprint));
+    % Get corresponding Coss in nF
+    Coss_val = Coss_vals(idx) * 1e9;
+    fprintf('At Vds = %d V, Coss = %.4f nF\n', Vprint, Coss_val);
+end
+
 
 
 %% 4. Calculate Vds(t) waveform during turn-off

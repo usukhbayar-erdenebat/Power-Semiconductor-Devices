@@ -134,6 +134,13 @@ $C_{oss} = C_{DS}$
 *Figure Coss VS Vds*
 
 
+
+|Vds|Coss|
+|At Vds = 100 V|Coss = 0.3769 nF|
+|At Vds = 200 V|Coss = 0.2669 nF|
+|At Vds = 300 V|Coss = 0.2180 nF|
+
+
 </details>
 
 
