@@ -186,13 +186,13 @@ _5.  Calculate turn-off loss (energy)_
 # **❗ Question 2 ❗**
 
 _1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._
-_1. Design SJ structure MOSFET (Fig 1) for VB=700V. ![Depletes at 50V](https://img.shields.io/badge/Depletes-50V-red)_
 
 
 ![](/figures/figure2-1.png)
 *Figure 1*
 
 _2.  Calculate on resistance of the MOSFET for area of 1 cm2_
+
 _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
 
 ![](/figures/figure2-2.png)
