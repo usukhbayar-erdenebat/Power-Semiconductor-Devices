@@ -130,7 +130,7 @@ Here $C_{GD}$ is gate-drain capacitance we assume without the miller period, whi
 
 $C_{oss} = C_{DS}$
 
-![Figure Coss VS Vds](/figures/planar-Coss.jpg)
+![Figure Coss VS Vds](/code/planar-Coss.fig)
 *Figure Coss VS Vds*
 
 
