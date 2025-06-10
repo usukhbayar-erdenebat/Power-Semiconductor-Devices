@@ -22,8 +22,8 @@ Given parameters:
 **Question 1**
 
 
-> [!NOTE]
-> Some assumption taken within this report
+> [!QUESTION 1-1]
+> _1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_
 
 > [!TIP]
 > Helpful advice for doing things better or more easily.
