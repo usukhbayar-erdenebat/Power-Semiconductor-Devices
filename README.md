@@ -64,7 +64,6 @@ _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
 <summary>Answer is HERE</summary>
 
 ### Equations
-
 $$
 R_{\text{drift}} = \frac{4 V_B^2}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}^3} \ [\Omega]
 $$
