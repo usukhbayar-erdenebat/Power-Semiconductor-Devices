@@ -229,7 +229,7 @@ $\frac{q N_D}{\epsilon} = \frac{2 \cdot E_{\text{peak}}}{W}$
 Solving for the doping concentration 
 $N_D$:
 
-$N_D = \frac{sqrt{2} \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}$
+$N_D = \frac{{\sqrt{2}} \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}$
 
 where 
 $q = 1.6 \times 10^{-19} , \text{C}$, $\epsilon_{\text{si}} = 1.0 \times 10^{-12} , \text{F/cm}$
@@ -243,7 +243,7 @@ $V_B \approx E_{\text{crit}} \cdot L$
 Solving for 
 $L$:
 
-$L = \frac{sqrt{2} \cdot V_B}{E_{\text{crit}}}$
+$L = \frac{{\sqrt{2}} \cdot V_B}{E_{\text{crit}}}$
 
 where 
 $V_B = 700 , \text{V}$
