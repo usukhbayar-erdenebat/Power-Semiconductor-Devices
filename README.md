@@ -182,6 +182,68 @@ _1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V.
 ![](/figures/figure2-1.png)
 *Figure 1*
 
+
+<details>
+<summary>:triangular_flag_on_post: Answer is HERE</summary>
+
+### Equations
+
+#### Peak Electric Field
+The apex of the isosceles triangle is the peak electric field:
+\[
+E_{\text{peak}} = \frac{E_{\text{crit}}}{\sqrt{2}}
+\]
+where \( E_{\text{crit}} = 2 \times 10^5 \, \text{V/cm} \).
+
+#### Depletion Voltage (Area of the Triangle)
+The depletion voltage \( V_{\text{dep}} \) is the area of the isosceles triangle:
+\[
+V_{\text{dep}} = \frac{1}{2} \cdot W \cdot E_{\text{peak}}
+\]
+Solving for the pillar width \( W \):
+\[
+W = \frac{2 \cdot V_{\text{dep}}}{E_{\text{peak}}}
+\]
+Given \( V_{\text{dep}} = 50 \, \text{V} \).
+
+#### Slope of the Electric Field
+The slope of the electric field profile is given by:
+\[
+\text{Slope} = \frac{q N_D}{\epsilon_{\text{si}}}
+\]
+For the isosceles triangle, the slope is also:
+\[
+\text{Slope} = \frac{E_{\text{peak}}}{W/2} = \frac{2 \cdot E_{\text{peak}}}{W}
+\]
+Equating the two:
+\[
+\frac{q N_D}{\epsilon_{\text{si}}} = \frac{2 \cdot E_{\text{peak}}}{W}
+\]
+Solving for the doping concentration \( N_D \):
+\[
+N_D = \frac{2 \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}
+\]
+where \( q = 1.6 \times 10^{-19} \, \text{C} \), \( \epsilon_{\text{si}} = 1.0 \times 10^{-12} \, \text{F/cm} \).
+
+#### Breakdown Voltage
+The breakdown voltage \( V_B \) is supported by the pillar length \( L \):
+\[
+V_B \approx E_{\text{crit}} \cdot L
+\]
+Solving for \( L \):
+\[
+L = \frac{V_B}{E_{\text{crit}}}
+\]
+where \( V_B = 700 \, \text{V} \).
+
+### Answer
+- Pillar Width (\( W \)): \( 7.07 \, \mu\text{m} \)
+- Doping Concentration (\( N_D \)): \( 2.5 \times 10^{15} \, \text{cm}^{-3} \)
+- Pillar Length (\( L \)): \( 35.00 \, \mu\text{m} \)
+
+</details>
+
+
 _2.  Calculate on resistance of the MOSFET for area of 1 cm2_
 
 _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
