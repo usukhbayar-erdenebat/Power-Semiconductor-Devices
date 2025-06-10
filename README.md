@@ -1,23 +1,8 @@
 # Power-Semiconductor-Devices
 Power Semiconductor Devices final report questions
 
-
-> [!NOTE]
-> Some assumption taken within this report
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-Given parameters:
+> Key parameters are given for this report.
 
     q = 1.6e-19 [C]
     Ɛ = 1.0e-12 [F/cm]
