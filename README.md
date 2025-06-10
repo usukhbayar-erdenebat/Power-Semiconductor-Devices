@@ -148,7 +148,7 @@ $C_{oss} = C_{DS}$
 
 _4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
 
-<p align="center">
+<p align="left">
   <img src="/figures/figure1-3.png" alt="figure 3" />
   <br>
   <em>Figure 3</em>
