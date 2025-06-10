@@ -55,9 +55,9 @@ $R_{\text{on, drift}} = \frac{L_{\text{drift}}}{q \mu_n N_D A} \ [\Omega]$
 
 ### Answer
 
-$R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2 :large_blue_circle:$
+$R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$ :large_blue_circle:
 
-$R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+$R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$ :large_blue_circle:
 
 results are SAME.
 
@@ -115,7 +115,7 @@ Here $C_{GD}$ is gate-drain capacitance we assume without the miller period, whi
 
 $C_{oss} = C_{DS}$
 
-![Figure Coss VS Vds](/figures/planar-Coss.jpg)
+![Figure Coss VS Vds](/figures/planar-Coss.jpg):large_blue_circle:
 *Figure: Waveform of Coss VS Vds*
 
 
@@ -123,9 +123,9 @@ $C_{oss} = C_{DS}$
 
 |Vds|Coss|
 |:---|:---|
-|At Vds = 100 V|Coss = 0.3769 nF|
-|At Vds = 200 V|Coss = 0.2669 nF|
-|At Vds = 300 V|Coss = 0.2180 nF|
+|At Vds = 100 V|Coss = 0.3769 nF| :large_blue_circle:
+|At Vds = 200 V|Coss = 0.2669 nF| :large_blue_circle:
+|At Vds = 300 V|Coss = 0.2180 nF| :large_blue_circle:
 </details>
 
 
