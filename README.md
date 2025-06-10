@@ -29,7 +29,7 @@ _:round_pushpin: 1.  Design doping concentration of N drift region of MOSFET (Fi
 
 
 <details>
-<summary>:triangular_flag_on_post: Answer is HERE</summary>
+<summary>:white_check_mark: Answer is HERE</summary>
 
 ### Equation
 $N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}$
@@ -42,7 +42,7 @@ $N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$ :large_blue_circle:
 _:round_pushpin: 2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup> :question:_
 
 <details>
-<summary>:triangular_flag_on_post: Answer is HERE</summary>
+<summary>:white_check_mark: Answer is HERE</summary>
 
 ### Equations
 $R_{\text{drift}} = \frac{4 V_B^2}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}^3} \ [\Omega]$
@@ -72,7 +72,7 @@ _:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (
 *Figure 2*
 
 <details>
-<summary>🚩 Answer is HERE</summary>
+<summary>:white_check_mark: Answer is HERE</summary>
 
 ### NA = ND:
 
@@ -136,7 +136,7 @@ _:round_pushpin: 4.  Calculate turn off (Vds) waveform of the MOSFET under induc
 *Figure 3*
 
 <details>
-<summary>:triangular_flag_on_post: Answer is HERE</summary>
+<summary>:white_check_mark: Answer is HERE</summary>
 
 ### Equations
 
@@ -164,7 +164,7 @@ $V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
 _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 
 <details>
-<summary>:triangular_flag_on_post: Answer is HERE</summary>
+<summary>:white_check_mark: Answer is HERE</summary>
 
 ### Equation
 $E_off = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}$
@@ -182,7 +182,7 @@ _:round_pushpin: 1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe d
 *Figure 1*
 
 <details>
-<summary>:triangular_flag_on_post: Answer is HERE</summary>
+<summary>:white_check_mark: Answer is HERE</summary>
 
 ### Equation
 Peak Electric Field:
@@ -255,7 +255,7 @@ Pillar Length ($L$): $49.50 , \mu\text{m}$ :large_blue_circle:
 _:round_pushpin: 2.  Calculate on resistance of the MOSFET for area of 1 cm2 :question:_
 
 <details>
-<summary>:triangular_flag_on_post: Answer is HERE</summary>
+<summary>:white_check_mark: Answer is HERE</summary>
 
 ### Equations
 
