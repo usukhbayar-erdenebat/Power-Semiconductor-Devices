@@ -254,6 +254,19 @@ Pillar Length ($L$): $49.50 , \mu\text{m}$
 
 _:round_pushpin: 2.  Calculate on resistance of the MOSFET for area of 1 cm2 :question:_
 
+<details>
+<summary>:triangular_flag_on_post: Answer is HERE</summary>
+
+### Equations
+
+$R_{\text{drift}} = \frac{2 V_B W}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}^2} \ [\Omega]$
+
+### Answer
+
+$R_{\text{drift}} = 164.991 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+
+</details>
+
 _:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2) :question:_
 
 ![](/figures/figure2-2.png)
