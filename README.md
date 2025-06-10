@@ -22,7 +22,7 @@ Power Semiconductor Devices final report questions
 
 # **❗ Question 1 (DMOSFET)❗**
 
-<code style="color : red">_:round_pushpin: 1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_ :question:</code>
+_:round_pushpin: 1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V :question:_
 
 ![](/figures/figure1-1.png)
 *Figure 1*
@@ -59,7 +59,7 @@ $R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
 
 $R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
 
-result is SAME.
+results are SAME.
 
 </details>
 
@@ -130,7 +130,7 @@ $C_{oss} = C_{DS}$
 
 
 
-_:round_pushpin: 4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
+_:round_pushpin: 4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0) :question:_
 
 ![figure 3](/figures/figure1-3.png)
 *Figure 3*
@@ -161,7 +161,7 @@ $V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
 </details>
 
 
-_:round_pushpin: 5.  Calculate turn-off loss (energy)_
+_:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 
 <details>
 <summary>:triangular_flag_on_post: Answer is HERE</summary>
@@ -176,7 +176,7 @@ $E_off = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
 
 # **❗ Question 2 (SJ MOSFET)❗**
 
-_:round_pushpin: 1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._
+_:round_pushpin: 1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V :question:_
 
 ![](/figures/figure2-1.png)
 *Figure 1*
@@ -259,10 +259,10 @@ _:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (
 ![](/figures/figure2-2.png)
 *Figure 2*
 
-_:round_pushpin: 4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
+_:round_pushpin: 4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0) :question:_
 
 ![](/figures/figure2-3.png)
 *Figure 3*
 
-_:round_pushpin: 5.  Calculate turn-off loss (energy)_
+_:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 
