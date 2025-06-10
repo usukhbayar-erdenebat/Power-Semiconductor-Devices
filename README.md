@@ -22,7 +22,7 @@ Power Semiconductor Devices final report questions
 
 # **❗ Question 1 (DMOSFET)❗**
 
-<code style="color : red">_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_ :question:</code>
+<code style="color : red">_:round_pushpin: 1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_ :question:</code>
 
 ![](/figures/figure1-1.png)
 *Figure 1*
@@ -39,7 +39,7 @@ $N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
 </details>
 
 
-_2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup> :question:_
+_:round_pushpin: 2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup> :question:_
 
 <details>
 <summary>:triangular_flag_on_post: Answer is HERE</summary>
@@ -66,7 +66,7 @@ result is SAME.
 
 
 
-_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2) :question:_
+_:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2) :question:_
 
 ![](/figures/figure1-2.png)
 *Figure 2*
@@ -130,7 +130,7 @@ $C_{oss} = C_{DS}$
 
 
 
-_4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
+_:round_pushpin: 4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
 
 ![figure 3](/figures/figure1-3.png)
 *Figure 3*
@@ -161,7 +161,7 @@ $V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
 </details>
 
 
-_5.  Calculate turn-off loss (energy)_
+_:round_pushpin: 5.  Calculate turn-off loss (energy)_
 
 <details>
 <summary>:triangular_flag_on_post: Answer is HERE</summary>
@@ -176,7 +176,7 @@ $E_off = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
 
 # **❗ Question 2 (SJ MOSFET)❗**
 
-_1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._
+_:round_pushpin: 1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V._
 
 ![](/figures/figure2-1.png)
 *Figure 1*
@@ -252,17 +252,17 @@ $V_B = 700 , \text{V}$
 Pillar Length ($L$): $49.50 , \mu\text{m}$
 </details>
 
-_2.  Calculate on resistance of the MOSFET for area of 1 cm2 :question:_
+_:round_pushpin: 2.  Calculate on resistance of the MOSFET for area of 1 cm2 :question:_
 
-_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2) :question:_
+_:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2) :question:_
 
 ![](/figures/figure2-2.png)
 *Figure 2*
 
-_4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
+_:round_pushpin: 4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0)_
 
 ![](/figures/figure2-3.png)
 *Figure 3*
 
-_5.  Calculate turn-off loss (energy)_
+_:round_pushpin: 5.  Calculate turn-off loss (energy)_
 
