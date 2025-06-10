@@ -70,9 +70,8 @@ R_{\text{drift}} = \frac{4 \cdot V_B^2}{\mu_n \cdot \varepsilon_{\text{Si}} \cdo
 $$
 
 ### Answer
-
 $$
-R_{\text{on, drift}} = 163.333 \ \text{m}\Omega \cdot \text{cm}^2
+R_{\text{drift}} = 163.333 \ \text{m}\Omega \cdot \text{cm}^2
 $$
 
 </details>
