@@ -217,7 +217,7 @@ For the isosceles triangle, the slope is also:
 $\text{Slope} = \frac{E_{\text{peak}}}{W/2} = \frac{2 \cdot E_{\text{peak}}}{W}$
 
 Equating the two:
-$\frac{q N_D}{\epsilon_{\text{si}}} = \frac{2 \cdot E_{\text{peak}}}{W}$
+$\frac{q N_D}{\epsilon} = \frac{2 \cdot E_{\text{peak}}}{W}$
 
 Solving for the doping concentration 
 $N_D$:
