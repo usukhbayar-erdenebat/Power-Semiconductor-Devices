@@ -48,13 +48,16 @@ Given parameters:
 
 ### Equation
 
-ND = (E_crit² × ε_si) / (2 × q × VB)   [cm⁻³]
+$$
+N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon_{\text{si}}}{2 \cdot q \cdot V_B}
+$$
 
 ### Answer
 
-Drift layer doping ND = 1.78 × 10¹⁴ [cm⁻³]
+Drift layer doping \( N_D = 1.78 \times 10^{14} \) [cm⁻³]
 
 </details>
+
 
 
 
