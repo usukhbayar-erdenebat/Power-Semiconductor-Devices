@@ -87,7 +87,7 @@ _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
 *Figure 2*
 
 <details>
-<summary>📐 Explanation of CGD, CDS, and Coss</summary>
+<summary>:triangular_flag_on_post: Answer is HERE</summary>
 
 ### NA = ND:
 
@@ -95,9 +95,9 @@ Assuming symmetric doping concentration for the P and N sides of the diode/junct
 
 ### Built-in voltage \( V_{bi} \):
 
-\[
+$
 V_{bi} = \frac{k T}{q} \ln \left(\frac{N_D N_A}{n_i^2}\right)
-\]
+$
 
 - \( k \): Boltzmann constant  
 - \( T \): Temperature (Kelvin)  
