@@ -115,17 +115,17 @@ Here $C_{GD}$ is gate-drain capacitance we assume without the miller period, whi
 
 $C_{oss} = C_{DS}$
 
-![Figure Coss VS Vds](/figures/planar-Coss.jpg):large_blue_circle:
+![Figure Coss VS Vds](/figures/planar-Coss.jpg)
 *Figure: Waveform of Coss VS Vds*
 
 
-###Coss values at specific Vds:
+### Coss values at specific Vds: :large_blue_circle:
 
 |Vds|Coss|
 |:---|:---|
-|At Vds = 100 V|Coss = 0.3769 nF| :large_blue_circle:
-|At Vds = 200 V|Coss = 0.2669 nF| :large_blue_circle:
-|At Vds = 300 V|Coss = 0.2180 nF| :large_blue_circle:
+|At Vds = 100 V|Coss = 0.3769 nF|
+|At Vds = 200 V|Coss = 0.2669 nF|
+|At Vds = 300 V|Coss = 0.2180 nF|
 </details>
 
 
@@ -170,7 +170,7 @@ _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 $E_off = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}$
 
 ### Answer
-$E_off = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
+$E_off = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$ :large_blue_circle:
 </details>
 
 
@@ -192,7 +192,7 @@ where
 $E_{\text{crit}} = 2 \times 10^5 , \text{V/cm}$
 
 ### Answer
-$E_{\text{peak}} = 1.4142 \times 10^5 , \text{V/cm}$
+$E_{\text{peak}} = 1.4142 \times 10^5 , \text{V/cm}$ :large_blue_circle:
 
 ### Equation
 Depletion Voltage (Area of the Triangle):
@@ -214,7 +214,7 @@ where
 $V_{\text{dep}} = 50 , \text{V}$
 
 ### Answer
-Pillar Width ($W$): $7.07 , \mu\text{m}$
+Pillar Width ($W$): $7.07 , \mu\text{m}$ :large_blue_circle:
 
 ### Equation
 Slope of the Electric Field:
@@ -235,7 +235,7 @@ where
 $q = 1.6 \times 10^{-19} , \text{C}$, $\epsilon_{\text{si}} = 1.0 \times 10^{-12} , \text{F/cm}$
 
 ### Answer
-Doping Concentration ($N_D$): $1.77 \times 10^{15} , \text{cm}^{-3}$
+Doping Concentration ($N_D$): $1.77 \times 10^{15} , \text{cm}^{-3}$ :large_blue_circle:
 
 ### Equation Breakdown Voltage:
 $V_B \approx E_{\text{crit}} \cdot L$
@@ -249,7 +249,7 @@ where
 $V_B = 700 , \text{V}$
 
 ### Answer
-Pillar Length ($L$): $49.50 , \mu\text{m}$
+Pillar Length ($L$): $49.50 , \mu\text{m}$ :large_blue_circle:
 </details>
 
 _:round_pushpin: 2.  Calculate on resistance of the MOSFET for area of 1 cm2 :question:_
@@ -263,7 +263,7 @@ $R_{\text{drift}} = \frac{2 V_B W}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}
 
 ### Answer
 
-$R_{\text{drift}} = 164.991 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+$R_{\text{drift}} = 164.991 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$ :large_blue_circle:
 
 </details>
 
