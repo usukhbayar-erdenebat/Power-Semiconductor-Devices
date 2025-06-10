@@ -35,7 +35,7 @@ _:round_pushpin: 1.  Design doping concentration of N drift region of MOSFET (Fi
 $N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}$
 
 ### Answer
-$N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
+$N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$ :large_blue_circle:
 </details>
 
 
@@ -55,7 +55,7 @@ $R_{\text{on, drift}} = \frac{L_{\text{drift}}}{q \mu_n N_D A} \ [\Omega]$
 
 ### Answer
 
-$R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+$R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2 :large_blue_circle:$
 
 $R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
 
