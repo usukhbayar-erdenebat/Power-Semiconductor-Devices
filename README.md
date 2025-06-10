@@ -229,13 +229,13 @@ $\frac{q N_D}{\epsilon} = \frac{2 \cdot E_{\text{peak}}}{W}$
 Solving for the doping concentration 
 $N_D$:
 
-$N_D = \frac{2 \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}$
+$N_D = \frac{sqrt(2) \cdot E_{\text{peak}} \cdot \epsilon_{\text{si}}}{q \cdot W}$
 
 where 
 $q = 1.6 \times 10^{-19} , \text{C}$, $\epsilon_{\text{si}} = 1.0 \times 10^{-12} , \text{F/cm}$
 
 ### Answer
-Doping Concentration ($N_D$): $2.5 \times 10^{15} , \text{cm}^{-3}$
+Doping Concentration ($N_D$): $1.77 \times 10^{15} , \text{cm}^{-3}$
 
 ### Equation Breakdown Voltage:
 $V_B \approx E_{\text{crit}} \cdot L$
@@ -243,13 +243,13 @@ $V_B \approx E_{\text{crit}} \cdot L$
 Solving for 
 $L$:
 
-$L = \frac{V_B}{E_{\text{crit}}}$
+$L = \frac{sqrt(2) \cdot V_B}{E_{\text{crit}}}$
 
 where 
 $V_B = 700 , \text{V}$
 
 ### Answer
-Pillar Length ($L$): $35.00 , \mu\text{m}$
+Pillar Length ($L$): $49.50 , \mu\text{m}$
 </details>
 
 _2.  Calculate on resistance of the MOSFET for area of 1 cm2_
