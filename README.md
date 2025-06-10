@@ -76,7 +76,9 @@ $R_{\text{on, drift}} = \frac{L_{\text{drift}}}{q \mu_n N_D A} \ [\Omega]$
 ### Answer
 
 $R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+
 $R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+
 result is SAME.
 
 </details>
