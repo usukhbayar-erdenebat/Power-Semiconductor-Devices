@@ -22,7 +22,7 @@ Power Semiconductor Devices final report questions
 
 # **❗ Question 1 (DMOSFET)❗**
 
-<code style="color : red">_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_</code>
+<code style="color : red">_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_ :question:</code>
 
 ![](/figures/figure1-1.png)
 *Figure 1*
@@ -39,7 +39,7 @@ $N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$
 </details>
 
 
-_2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
+_2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup> :question:_
 
 <details>
 <summary>:triangular_flag_on_post: Answer is HERE</summary>
@@ -66,7 +66,7 @@ result is SAME.
 
 
 
-_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
+_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2) :question:_
 
 ![](/figures/figure1-2.png)
 *Figure 2*
@@ -252,9 +252,9 @@ $V_B = 700 , \text{V}$
 Pillar Length ($L$): $49.50 , \mu\text{m}$
 </details>
 
-_2.  Calculate on resistance of the MOSFET for area of 1 cm2_
+_2.  Calculate on resistance of the MOSFET for area of 1 cm2 :question:_
 
-_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
+_3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2) :question:_
 
 ![](/figures/figure2-2.png)
 *Figure 2*
