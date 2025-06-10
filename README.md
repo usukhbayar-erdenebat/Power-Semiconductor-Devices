@@ -196,6 +196,13 @@ $E_{\text{peak}} = 1.4142 \times 10^5 , \text{V/cm}$
 
 ### Equation
 Depletion Voltage (Area of the Triangle):
+
+
+
+![](/figures/triangle.jpg)
+*Figure SJ pillar width illustration*
+
+
 $V_{\text{dep}} = \frac{1}{2} \cdot W \cdot E_{\text{peak}}$
 
 Solving for the pillar width 
