@@ -272,6 +272,9 @@ _:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (
 ![](/figures/figure2-2.png)
 *Figure 2*
 
+
+
+
 _:round_pushpin: 4.  Calculate turn-off (Vds) waveform of the MOSFET under inductive load (Fig. 3). Gate is assumed to be turned off without Miller period (i.e. gate resistance =0) :question:_
 
 ![](/figures/figure2-3.png)
