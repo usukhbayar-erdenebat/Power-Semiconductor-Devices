@@ -45,9 +45,19 @@ Given parameters:
 
 <details>
 <summary>Answer of Question 1</summary>
-### Equetions
-Drift layer doping Nd = 1.78e14 [cm^-3]
+
+### Equation
+
+\[
+N_D = \frac{E_{\text{crit}}^2 \cdot \varepsilon_{\text{si}}}{2 \cdot q \cdot V_B} \quad \text{[cm}^{-3}\text{]}
+\]
+
+### Answer
+
+Drift layer doping \( N_D = 1.78 \times 10^{14} \) [cm⁻³]
+
 </details>
+
 
 
 _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
