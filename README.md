@@ -54,7 +54,9 @@ $$
 
 ### Answer
 
-Drift layer doping \( N_D = 1.78 \times 10^{14} \) [cm⁻³]
+$$
+N_D = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}
+$$
 
 </details>
 
