@@ -67,13 +67,17 @@ _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
 
 $R_{\text{drift}} = \frac{4 V_B^2}{\mu_n \varepsilon_{\text{Si}} E_{\text{crit}}^3} \ [\Omega]$
 
+or
+
 $L_{\text{drift}} = \frac{2 V_B}{E_{\text{crit}}} \ [\mathrm{cm}]$
 
 $R_{\text{on, drift}} = \frac{L_{\text{drift}}}{q \mu_n N_D A} \ [\Omega]$
 
 ### Answer
 
+$R_{\text{drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
 $R_{\text{on, drift}} = 163.333 \ \mathrm{m}\Omega \cdot \mathrm{cm}^2$
+result is SAME.
 
 </details>
 
