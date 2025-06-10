@@ -22,8 +22,8 @@ Given parameters:
 **Question 1**
 
 
-> [!QUESTION 1-1]
-> _1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_
+> [!NOTE]
+> Some assumption taken within this report
 
 > [!TIP]
 > Helpful advice for doing things better or more easily.
@@ -41,6 +41,14 @@ Given parameters:
 
 ![](/figures/figure1-1.png)
 *Figure 1*
+
+
+<details>
+<summary>Answer of Question 1</summary>
+### Equetions
+Drift layer doping Nd = 1.78e14 [cm^-3]
+</details>
+
 
 _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
 
