@@ -60,6 +60,29 @@ $$
 
 _2.  Calculate on resistance of the MOSFET for area of 1 cm<sup>2</sup>_
 
+<details>
+<summary>Answer of Question 2</summary> 
+### Equations
+$$
+L_{\text{drift}} = \frac{2 \cdot V_B}{E_{\text{crit}}}
+$$
+$$
+R_{\text{on,drift}} = \frac{L_{\text{drift}}}{q \cdot \mu_n \cdot N_D \cdot A}
+$$
+or
+$$
+R_{\text{drift}} = \frac{4 \cdot V_B^2}{\mu_n \cdot \varepsilon \cdot E_{\text{crit}}^3}
+$$
+### Answer
+$$
+R_{\text{on,drift}} = 163.333 \ \text{m}\Omega \cdot \text{cm}^2 \\
+R_{\text{drift}} = 163.333 \ \text{m}\Omega \cdot \text{cm}^2
+$$
+</details>
+
+
+
+
 _3.  Calculate Coss (CGD+CDS) as a function of applied voltage (Fig 2)_
 
 ![](/figures/figure1-2.png)
