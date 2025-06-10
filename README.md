@@ -126,7 +126,7 @@ Represents the capacitance due to the depletion region, inversely proportional t
 
 $C_{oss} = C_{GD} + C_{DS}$
 
-Here $C_{GD}$ is gate-drain capacitance, which in your simplified model equals $C_{DS}$, so
+Here $C_{GD}$ is gate-drain capacitance we assume without the miller period, which in your simplified model equals $C_{DS}$, so
 
 $C_{oss} = C_{DS}$
 
