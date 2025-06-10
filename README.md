@@ -185,7 +185,8 @@ _1.  Design SJ structure MOSFET (Fig 1) for VB=700V. SJ stripe depletes at 50 V.
 <summary>:triangular_flag_on_post: Answer is HERE</summary>
 
 ###Equation
-Peak Electric Field:$E_{\text{peak}} = \frac{E_{\text{crit}}}{\sqrt{2}}$
+Peak Electric Field:
+$E_{\text{peak}} = \frac{E_{\text{crit}}}{\sqrt{2}}$
 
 where 
 $E_{\text{crit}} = 2 \times 10^5 , \text{V/cm}$
@@ -194,7 +195,8 @@ $E_{\text{crit}} = 2 \times 10^5 , \text{V/cm}$
 $E_{\text{peak}} = 1.4142 \times 10^5 , \text{V/cm}$
 
 ###Equation
-Depletion Voltage (Area of the Triangle):$V_{\text{dep}} = \frac{1}{2} \cdot W \cdot E_{\text{peak}}$
+Depletion Voltage (Area of the Triangle):
+$V_{\text{dep}} = \frac{1}{2} \cdot W \cdot E_{\text{peak}}$
 
 Solving for the pillar width 
 $W$:$W = \frac{2 \cdot V_{\text{dep}}}{E_{\text{peak}}}$where $V_{\text{dep}} = 50 , \text{V}$
@@ -203,7 +205,9 @@ $W$:$W = \frac{2 \cdot V_{\text{dep}}}{E_{\text{peak}}}$where $V_{\text{dep}} = 
 Pillar Width ($W$): $7.07 , \mu\text{m}$
 
 ###Equation
-Slope of the Electric Field:$\text{Slope} = \frac{q N_D}{\epsilon_{\text{si}}}$
+Slope of the Electric Field:
+$\text{Slope} = \frac{q N_D}{\epsilon_{\text{si}}}$
+
 For the isosceles triangle, the slope is also:
 $\text{Slope} = \frac{E_{\text{peak}}}{W/2} = \frac{2 \cdot E_{\text{peak}}}{W}$
 
