@@ -131,7 +131,7 @@ Here $C_{GD}$ is gate-drain capacitance we assume without the miller period, whi
 $C_{oss} = C_{DS}$
 
 ![Figure Coss VS Vds](/figures/planar-Coss.jpg)
-*Figure Waveform of Coss VS Vds*
+*Figure: Waveform of $C_{oss} = C_{DS}$*
 
 
 ###Coss values at specific Vds:
