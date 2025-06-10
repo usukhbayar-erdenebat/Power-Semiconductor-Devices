@@ -131,7 +131,7 @@ Here $C_{GD}$ is gate-drain capacitance we assume without the miller period, whi
 $C_{oss} = C_{DS}$
 
 ![Figure Coss VS Vds](/figures/planar-Coss.jpg)
-*Figure: Waveform of $C_{oss} = C_{DS}$*
+*Figure: Waveform of Coss VS Vds*
 
 
 ###Coss values at specific Vds:
@@ -150,6 +150,33 @@ _4.  Calculate turn off (Vds) waveform of the MOSFET under inductive load (Fig. 
 
 ![figure 3](/figures/figure1-3.png)
 *Figure 3*
+
+
+<details>
+<summary>:triangular_flag_on_post: Answer is HERE</summary>
+
+### Equations
+
+**Current through capacitor:**  
+$I = C \cdot \frac{dV}{dt} \quad \Rightarrow \quad \frac{dV}{dt} = \frac{I}{C}$
+
+**Voltage increment for time step $dt$:**  
+$\Delta V = \frac{I_0}{C(V)} \cdot dt$
+
+**Output capacitance $C_{oss}$ as a function of voltage:**  
+$C_{oss}(V) = \frac{\varepsilon_{Si} \cdot A}{W(V)}$
+
+**Depletion width $W(V)$:**  
+$W(V) = \sqrt{\frac{2 \varepsilon_{Si} (V_{bi} + V)}{q N_D}}$
+
+**Update voltage at each timestep:**  
+$V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
+
+
+![Figure Coss VS Vds](/figures/planar-toff-Vds.jpg)
+*Figure: Turn-off waveform of Vds*
+<details>
+
 
 _5.  Calculate turn-off loss (energy)_
 
