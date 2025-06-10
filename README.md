@@ -21,7 +21,7 @@ Given parameters:
 
 **Question 1**
 
-<color style="color : aqua">_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_</code>
+<code style="color : blue">_1.  Design doping concentration of N drift region of MOSFET (Fig 1) for VB=700V_</code>
 
 ![](/figures/figure1-1.png)
 *Figure 1*
