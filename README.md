@@ -163,15 +163,8 @@ $V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
 
 _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 
-<details>
-<summary>:white_check_mark: Answer is HERE</summary>
-
-### Equation
-$E_off = \frac{E_{\text{crit}}^2 \cdot \varepsilon}{2 \cdot q \cdot V_B}$
-
-### Answer
-$E_off = 1.78 \times 10^{14} \ \text{[cm}^{-3}\text{]}$ :large_blue_circle:
-</details>
+![](/figures/5.png)
+*Figure 1*
 
 
 # **❗ Question 2 (SJ MOSFET)❗**
