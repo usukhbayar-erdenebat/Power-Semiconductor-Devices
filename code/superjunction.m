@@ -96,16 +96,7 @@ ylim([0 1.1*Voff]);
 hold off;
 
 %% 5. Calculate turn-off energy loss
-% Energy during voltage rise
-t_rise = t_vals(1:tr_idx);
-V_rise = Vds(1:tr_idx);
-E_rise = trapz(t_rise, V_rise * I0);  % ∫V·I dt
 
-% Energy during current fall
-E_fall = 0.5 * Voff * I0 * tf;        % 0.5·V·I·t_f
-
-% Total turn-off loss
-Eoff_total = E_rise + E_fall;
 
 
 %% Output Results

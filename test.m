@@ -1,71 +1,87 @@
-% Semiconductor Physics and Power Device Equations in MATLAB
-
+% Super Junction MOSFET Coss Model
 clc; clear;
 
-%% Constants
+% Constants
+eps_si = 1.0e-12;  % Permittivity [F/cm]
 q = 1.6e-19;       % Elementary charge [C]
-eps_si = 1.0e-12;  % Permittivity of silicon [F/cm]
-kT = 0.026;        % Thermal energy at 300K [eV]
-ni = 1.5e10;       % Intrinsic carrier concentration [cm^-3]
-mu_n = 1500;       % Electron mobility [cm^2/V-s]
-mu_p = 500;        % Hole mobility [cm^2/V-s]
-VB = 700;          % Breakdown voltage [V]
-E_crit = 2e5;      % Critical electric field [V/cm]
-V_dc = 300;        % DC bus voltage [V]
-I0 = 10;           % Initial current [A]
-A = 1;             % Area [cm^2]
 
-%% 1. N-drift region doping concentration (corrected)
-Nd = (eps_si * E_crit^2) / (2 * q * VB);  % [cm^-3]
-fprintf('1. N-drift doping concentration: %.2e cm^-3\n', Nd);
+% Device Parameters (Corrected Physics)
+V_dep = 50;         % Full depletion voltage [V]
+E_crit = 2e5;       % Critical field [V/cm]
+A_junc = 1;         % Junction area [cm²]
 
-%% 2. On-resistance using direct analytical formula
-R_on = (4 * VB^2) / (mu_n * eps_si * E_crit^3);  % [Ohm-cm^2]
-fprintf('2. On-resistance R_on (specific): %.4f Ohm-cm^2\n', R_on);
-R_on_total = R_on / A;  % Area-specific to absolute value
-fprintf('   Total R_on for 1 cm^2: %.4f Ohms\n', R_on_total);
+% Pillar design (corrected equations)
+W = (2*sqrt(2)*V_dep)/E_crit;       % Pillar width [cm]
+W_um = W * 1e4;                     % Convert to μm
+ND = (2*eps_si*V_dep)/(q*W^2);     % Doping [cm⁻³]
 
+fprintf('Pillar width = %.2f μm\n', W_um);
+fprintf('Doping concentration = %.2e cm⁻³\n', ND);
 
-%% 3. Coss (Cgd + Cds) as a function of Vds
-L = 2 * VB / E_crit;
-Vds = linspace(0.1, VB, 1000);  % Avoid divide-by-zero
-C0 = eps_si * A / L;            % Capacitance at V=0
-Coss = C0 ./ sqrt(1 + Vds / VB);
+% Coss Calculation
+Vdc = linspace(0.1, 500, 1000);    % Voltage range [V]
+Coss = zeros(size(Vdc));             % Initialize capacitance
+
+for i = 1:length(Vdc)
+    if Vdc(i) <= V_dep
+        % Partial depletion regime
+        x_d = W * sqrt(Vdc(i)/V_dep);
+    else
+        % Full depletion regime
+        x_d = W;
+    end
+    Coss(i) = eps_si * A_junc / x_d;  % Capacitance [F]
+end
+
+% Convert to nanofarads
+Coss_nF = Coss * 1e9;
+
+% Find capacitance at key voltages
+Coss_10V = interp1(Vdc, Coss_nF, 10);
+Coss_50V = interp1(Vdc, Coss_nF, 50);
+Coss_300V = interp1(Vdc, Coss_nF, 300);
+
+% Plot results
+figure;
+subplot(2,1,1);
+semilogy(Vdc, Coss_nF, 'b', 'LineWidth', 2);
+grid on;
+title('SJ MOSFET: C_{oss} vs V_{dc}');
+ylabel('C_{oss} [nF]');
+xline(V_dep, '--r', 'V_{dep} = 50V');
+text(100, Coss_50V*1.5, sprintf('C_{oss}@50V = %.2f nF', Coss_50V));
+text(300, Coss_300V*1.1, sprintf('Min C_{oss} = %.2f nF', Coss_300V));
+
+subplot(2,1,2);
+plot(Vdc, Coss_nF, 'b', 'LineWidth', 2);
+grid on;
+xlabel('V_{dc} [V]');
+ylabel('C_{oss} [nF]');
+xline(V_dep, '--r', 'V_{dep} = 50V');
+ylim([0 1.2*max(Coss_nF)]);
+
+% Display key metrics
+fprintf('\nCoss Characteristics:\n');
+fprintf('----------------------\n');
+fprintf('Coss @ 10V: %.2f nF\n', Coss_10V);
+fprintf('Coss @ 50V: %.2f nF\n', Coss_50V);
+fprintf('Coss @ 300V: %.2f nF\n', Coss_300V);
+fprintf('Coss reduction (10V→50V): %.1f%%\n', (1 - Coss_50V/Coss_10V)*100);
+
+% Calculate Qoss and Eoss
+Qoss = cumtrapz(Vdc, Coss);          % Charge [C]
+Eoss = 0.5 * Coss .* Vdc.^2;         % Energy [J]
 
 figure;
-plot(Vds, Coss * 1e12);
-xlabel('V_{DS} (V)');
-ylabel('C_{oss} (pF)');
-title('3. Voltage-dependent Output Capacitance C_{oss}(V)');
+yyaxis left;
+plot(Vdc, Qoss*1e9, 'b-', 'LineWidth', 2);
+ylabel('Q_{oss} [nC]');
+
+yyaxis right;
+plot(Vdc, Eoss*1e6, 'r-', 'LineWidth', 2);
+ylabel('E_{oss} [μJ]');
+
+title('Output Charge & Energy vs Voltage');
+xlabel('V_{dc} [V]');
 grid on;
-
-
-%% 4. Turn-off waveform Vds(t) under inductive load
-
-% Voltage range from 0 to V_dc
-Vds = linspace(0.1, V_dc, 1000);  % Avoid V=0 to prevent singularity
-C0 = eps_si * A / L;              % Capacitance at V=0
-Coss = C0 ./ sqrt(1 + Vds / VB);  % Voltage-dependent output capacitance
-
-% Time increment dt = C(V) * dV / I0
-dV = Vds(2) - Vds(1);
-dt = (Coss .* dV) / I0;
-t = cumsum(dt);  % Cumulative time = integral of dt
-
-% Plot Vds vs time
-figure;
-plot(t * 1e9, Vds);
-xlabel('Time (ns)');
-ylabel('V_{DS} (V)');
-title('4. Turn-off waveform V_{DS}(t) under inductive load');
-grid on;
-
-% Print total rise time
-t_rise = t(end);
-fprintf('4. Total Vds rise time: %.2f ns\n', t_rise * 1e9);
-
-
-%% 5. Turn-off loss (energy)
-% E_off = 0.5 * Vdc * I0 * t_off
-E_off = 0.5 * V_dc * I0 * t_off;  % [J]
-fprintf('5. Turn-off energy loss: %.2e J\n', E_off);
+legend('Q_{oss}', 'E_{oss}', 'Location', 'northwest');
