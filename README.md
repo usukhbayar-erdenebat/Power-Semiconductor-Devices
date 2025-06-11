@@ -269,7 +269,6 @@ _:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (
 <summary>:white_check_mark: Answer is HERE</summary>
 
 ![](/figures/3.png)
-*it takes some time to put equations in here just upload the screenshot here!*
 
 ![](/figures/3-1.png)
 *it takes some time to put equations in here just upload the screenshot here!*
@@ -282,5 +281,22 @@ _:round_pushpin: 4.  Calculate turn-off (Vds) waveform of the MOSFET under induc
 ![](/figures/figure2-3.png)
 *Figure 3*
 
+<details>
+<summary>:white_check_mark: Answer is HERE</summary>
+
+![](/figures/4.png)
+
+![](/figures/4-1.png)
+*it takes some time to put equations in here just upload the screenshot here!*
+
+</details>
+
 _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 
+<details>
+<summary>:white_check_mark: Answer is HERE</summary>
+
+![](/figures/5-1.png)
+*it takes some time to put equations in here just upload the screenshot here!*
+
+</details>
