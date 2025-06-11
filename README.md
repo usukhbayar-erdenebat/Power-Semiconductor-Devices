@@ -164,7 +164,7 @@ $V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
 _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 
 ![](/figures/5.png)
-*Figure 1*
+*it takes some time to put equations in here just upload the screenshot here!*
 
 
 # **❗ Question 2 (SJ MOSFET)❗**
