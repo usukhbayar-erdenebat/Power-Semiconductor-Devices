@@ -163,9 +163,12 @@ $V_{DS}(t + dt) = V_{DS}(t) + \Delta V$
 
 _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 
+<details>
+<summary>:white_check_mark: Answer is HERE</summary>
+    
 ![](/figures/5.png)
-*it takes some time to put equations in here just upload the screenshot here!*
-
+*it takes time to put equations in here so I just upload the screenshot :p*
+<details>
 
 # **❗ Question 2 (SJ MOSFET)❗**
 
@@ -271,7 +274,7 @@ _:round_pushpin: 3.  Calculate Coss (CGD+CDS) as a function of applied voltage (
 ![](/figures/3.png)
 
 ![](/figures/3-1.png)
-*it takes some time to put equations in here just upload the screenshot here!*
+*it takes time to put equations in here so I just upload the screenshot :p*
 
 </details>
 
@@ -287,7 +290,7 @@ _:round_pushpin: 4.  Calculate turn-off (Vds) waveform of the MOSFET under induc
 ![](/figures/4.png)
 
 ![](/figures/4-1.png)
-*it takes some time to put equations in here just upload the screenshot here!*
+*it takes time to put equations in here so I just upload the screenshot :p*
 
 </details>
 
@@ -297,6 +300,6 @@ _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
 <summary>:white_check_mark: Answer is HERE</summary>
 
 ![](/figures/5-1.png)
-*it takes some time to put equations in here just upload the screenshot here!*
+*it takes time to put equations in here so I just upload the screenshot :p*
 
 </details>
