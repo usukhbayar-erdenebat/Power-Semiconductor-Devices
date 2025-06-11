@@ -2,7 +2,7 @@
 Power Semiconductor Devices final report questions
 
 > [!IMPORTANT]
-> Key parameters are given for this report. Ravi san
+> Key parameters are given for this report.
 
     q = 1.6e-19 [C]
     Ɛ = 1.0e-12 [F/cm]
