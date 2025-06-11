@@ -168,7 +168,7 @@ _:round_pushpin: 5.  Calculate turn-off loss (energy) :question:_
     
 ![](/figures/5.png)
 *it takes time to put equations in here so I just upload the screenshot :p*
-<details>
+</details>
 
 # **❗ Question 2 (SJ MOSFET)❗**
 
